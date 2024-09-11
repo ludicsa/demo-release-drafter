@@ -13,6 +13,6 @@ template: |
 
   $CHANGES
 
-  **Full Changelog**: https://github.com/$REPOSITORY/compare/$PREVIOUS_TAG...$NEW_TAG
+  **Full Changelog**:https://github.com/ludicsa/demo-release-drafter/compare/$PREVIOUS_TAG...$NEW_TAG
 
 publish: true
