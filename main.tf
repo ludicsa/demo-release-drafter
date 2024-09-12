@@ -38,7 +38,7 @@ resource "aws_instance" "web" {
               yum install -y httpd
               systemctl start httpd
               systemctl enable httpd
-              echo "<html><h3>Hello World</h3></html>" > /var/www/html/index.html
+              echo "<html><h1>Hello World</h1></html>" > /var/www/html/index.html
             EOF
 
   tags = {
